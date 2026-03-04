@@ -2,7 +2,7 @@
 FROM node:20-alpine
 
 # Create app directory inside container
-WORKDIR /usr/src/app
+WORKDIR /use/src/app
 
 # Copy package.json and package-lock.json
 COPY package*.json ./
